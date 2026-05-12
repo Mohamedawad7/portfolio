@@ -21,7 +21,7 @@ import { ApiTags } from '@nestjs/swagger';
   cors: {
     origin: [
       'https://mohamed-awad.vercel.app',
-      'https://mohamed-awad-git-main-mohameds-projects.vercel.app',
+      'https://mohamed-awad.vercel.app/',
     ],
     credentials: true,
   },
