@@ -19,7 +19,10 @@ import { ApiTags } from '@nestjs/swagger';
 @WebSocketGateway({
   namespace: '/chat',
   cors: {
-    origin: 'https://mohamed-awad.vercel.app',
+    origin: [
+      'https://mohamed-awad.vercel.app',
+      'https://mohamed-awad-git-main-mohameds-projects.vercel.app',
+    ],
     credentials: true,
   },
   transports: ['websocket', 'polling'],
