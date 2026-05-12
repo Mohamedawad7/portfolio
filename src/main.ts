@@ -30,7 +30,7 @@ async function bootstrap() {
   );
   (app.enableCors({
     origin: [
-process.env.FRONTEND_URL as string,
+      'https://mohamed-awad.vercel.app',
       process.env.FRONTEND_URL_PROD as string,
     ],
     credentials: true,
